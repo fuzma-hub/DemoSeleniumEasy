@@ -1,0 +1,19 @@
+[INFO ] 2020-12-24 14:25:57.736 [main] SeleniumEasyHomePgTestCases - The Page is clicked
+[INFO ] 2020-12-24 14:26:05.334 [main] SeleniumEasyHomePgTestCases - The data was successfully entered
+[INFO ] 2020-12-24 14:26:05.971 [main] SeleniumEasyHomePgTestCases - The driver is successfully closed afater test execution
+[INFO ] 2020-12-24 14:27:52.622 [main] SeleniumEasyHomePgTestCases - The Page is clicked
+[INFO ] 2020-12-24 14:28:01.142 [main] SeleniumEasyHomePgTestCases - The data was successfully entered
+[FATAL] 2020-12-24 14:28:01.142 [main] SeleniumEasyHomePgTestCases - If not entered , It would result in failure
+[INFO ] 2020-12-24 14:28:01.784 [main] SeleniumEasyHomePgTestCases - The driver is successfully closed after test execution
+[INFO ] 2020-12-24 14:30:10.551 [main] SeleniumEasyHomePgTestCases - The Page is clicked
+[INFO ] 2020-12-24 14:30:18.062 [main] SeleniumEasyHomePgTestCases - The data was successfully entered
+[FATAL] 2020-12-24 14:30:18.063 [main] SeleniumEasyHomePgTestCases - If not entered , It would result in failure
+[INFO ] 2020-12-24 14:30:19.160 [main] SeleniumEasyHomePgTestCases - The driver is successfully closed after test execution
+[INFO ] 2020-12-25 16:41:01.012 [main] SeleniumEasyHomePgTestCases - The Page is clicked
+[INFO ] 2020-12-25 16:41:08.844 [main] SeleniumEasyHomePgTestCases - The data was successfully entered
+[FATAL] 2020-12-25 16:41:08.845 [main] SeleniumEasyHomePgTestCases - If not entered , It would result in failure
+[INFO ] 2020-12-25 16:41:09.501 [main] SeleniumEasyHomePgTestCases - The driver is successfully closed after test execution
+[INFO ] 2020-12-25 16:43:37.941 [main] SeleniumEasyHomePgTestCases - The Page is clicked
+[INFO ] 2020-12-25 16:43:47.545 [main] SeleniumEasyHomePgTestCases - The data was successfully entered
+[FATAL] 2020-12-25 16:43:47.545 [main] SeleniumEasyHomePgTestCases - If not entered , It would result in failure
+[INFO ] 2020-12-25 16:43:48.971 [main] SeleniumEasyHomePgTestCases - The driver is successfully closed after test execution
