@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-25T16:43:28 EST" name="SeleniumEasyTestAutomationSuite" finished-at="2020-12-25T16:43:48 EST" duration-ms="20728">
+    <groups>
+    </groups>
+    <test started-at="2020-12-25T16:43:28 EST" name="SeleniumEasy TestCases" finished-at="2020-12-25T16:43:48 EST" duration-ms="20728">
+      <class name="com.SeleniumEasy.Test.SeleniumEasyHomePgTestCases">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.SeleniumEasy.Test.SeleniumEasyHomePgTestCases@5ddcc487]" started-at="2020-12-25T16:43:28 EST" name="Setup" finished-at="2020-12-25T16:43:37 EST" duration-ms="8795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="DemoHomeTest()[pri:1, instance:com.SeleniumEasy.Test.SeleniumEasyHomePgTestCases@5ddcc487]" started-at="2020-12-25T16:43:37 EST" name="DemoHomeTest" finished-at="2020-12-25T16:43:37 EST" duration-ms="881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoHomeTest -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.SeleniumEasy.Test.SeleniumEasyHomePgTestCases@5ddcc487]" started-at="2020-12-25T16:43:37 EST" name="Setup" finished-at="2020-12-25T16:43:46 EST" duration-ms="8202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="SimpleForm()[pri:2, instance:com.SeleniumEasy.Test.SeleniumEasyHomePgTestCases@5ddcc487]" started-at="2020-12-25T16:43:46 EST" name="SimpleForm" finished-at="2020-12-25T16:43:47 EST" duration-ms="1393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SimpleForm -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.SeleniumEasy.Test.SeleniumEasyHomePgTestCases@5ddcc487]" started-at="2020-12-25T16:43:47 EST" name="TearDown" finished-at="2020-12-25T16:43:48 EST" duration-ms="1424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.SeleniumEasy.Test.SeleniumEasyHomePgTestCases -->
+    </test> <!-- SeleniumEasy TestCases -->
+  </suite> <!-- SeleniumEasyTestAutomationSuite -->
+</testng-results>
