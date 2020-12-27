@@ -70,6 +70,7 @@ public class SeleniumEasyHomePgTestCases extends TestBase{
 		
 		driver.quit();
 		log.info("The driver is successfully closed after test execution");
+		//For git
 	}
 
 }
