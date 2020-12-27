@@ -1,0 +1,15 @@
+package com.SeleniumEasy.Base;
+
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+
+public class TestBase {
+	public static WebDriver driver;
+	public static Properties prop;
+	
+	public TestBase() {
+		
+	}
+
+}

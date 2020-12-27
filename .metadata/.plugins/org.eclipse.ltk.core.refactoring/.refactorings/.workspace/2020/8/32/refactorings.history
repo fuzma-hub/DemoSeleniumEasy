@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;VulnerableWebApp&apos; to &apos;SeleniumEasyAutomation&apos;&#x0D;&#x0A;- Original element: &apos;VulnerableWebApp&apos;&#x0D;&#x0A;- Renamed element: &apos;VulnerableWebApp&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;VulnerableWebApp&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=VulnerableWebApp" name="SeleniumEasyAutomation" references="true" stamp="1596839185094" version="1.0"/>
+</session>

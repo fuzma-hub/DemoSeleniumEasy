@@ -1,0 +1,31 @@
+package com.SeleniumEasy.PagesObjectRepository;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
+import com.SeleniumEasy.Base.TestBase;
+
+public class SeleniumHomePgObjectRep extends TestBase {
+	
+	public SeleniumHomePgObjectRep()
+	{
+		PageFactory.initElements(driver, this);
+	}
+	
+	public WebElement Close()
+	{
+		 WebElement Clse = driver.findElement(By.xpath("//a[@title='Close']"));
+	     return Clse;
+	}
+	public WebElement DemoHome()
+	{
+    WebElement DemoHme = driver.findElement(By.xpath("//a[text()='Demo Home']"));
+     return DemoHme;
+    }
+	
+	public WebElement InputFormLink()
+	{
+    WebElement InptFrm = driver.findElement(By.xpath("//a[text()='Input Forms']"));
+     return InptFrm;
+    }
+}

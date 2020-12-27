@@ -1,0 +1,12 @@
+package com.SeleniumEasy.Test;
+
+import com.SeleniumEasy.ActionsValidations.HomePgActionsValidations;
+
+public class SeleniumEasyHomePgTestCases extends HomePgActionsValidations{
+	
+	public SeleniumEasyHomePgTestCases()
+	{
+		Super();
+	}
+
+}

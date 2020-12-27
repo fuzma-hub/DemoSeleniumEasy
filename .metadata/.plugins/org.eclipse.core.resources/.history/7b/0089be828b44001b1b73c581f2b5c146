@@ -1,0 +1,10 @@
+package com.SeleniumEasy.ActionsValidations;
+
+import com.SeleniumEasy.PagesObjectRepository.InputFormsPageObjectRepository;
+import com.SeleniumEasy.PagesObjectRepository.SeleniumHomePgObjectRep;
+
+public class InputFormPgActionsValidations extends InputFormsPageObjectRepository {
+
+	SeleniumHomePgObjectRep SelHmeObjrep = new SeleniumHomePgObjectRep();
+	InputFormsPageObjectRepository InptPgObjRep = new InputFormsPageObjectRepository();
+}

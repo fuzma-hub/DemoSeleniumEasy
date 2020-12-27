@@ -1,0 +1,36 @@
+package com.SeleniumEasy.Test;
+
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import com.SeleniumEasy.ActionsValidations.HomePgActionsValidations;
+
+public class SeleniumEasyHomePgTestCases extends HomePgActionsValidations{
+	
+	HomePgActionsValidations HmePgActnsVal;
+	public SeleniumEasyHomePgTestCases()
+	{
+		Super();
+	}
+	
+	@BeforeMethod
+	public void Setup()
+	{
+		Initialize();
+		HmePgActnsVal= new HomePgActionsValidations();
+	}
+	
+	@Test
+	public void DemoHomeTest()
+	{
+		HmePgActnsVal.DemoHomeClick();
+	}
+	
+	@AfterTest
+	public void TearDown()
+	{
+		System.out.println("I am in tear down");
+	}
+
+}

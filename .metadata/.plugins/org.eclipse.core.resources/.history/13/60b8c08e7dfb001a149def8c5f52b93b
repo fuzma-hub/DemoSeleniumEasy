@@ -1,0 +1,30 @@
+package actions;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
+
+import baseclass.Base;
+
+public class PgActions extends Base{
+	
+	public PgActions()
+	{
+		PageFactory.initElements(driver, this);
+	}
+	
+	public void inputUserName()
+	{
+		 
+		 WebElement elements = (WebElement) js.executeScript("return jQuery.find $('a')");
+		 elements.click();
+		 
+		/*Object elem = (js.executeScript("return $(\"a\").css(\"background-color\", \"yellow\");\").text();"));
+		System.out.println(js.executeScript("return $(\".copyright\").text();"));
+String	jQuerySelector = ("#username");
+String UserName = "return $(\"" + jQuerySelector + "\").get(0);";
+WebElement LoginUserName = (WebElement) js.executeScript(UserName);
+LoginUserName.sendKeys("Fasi");*/
+	}
+	
+
+}

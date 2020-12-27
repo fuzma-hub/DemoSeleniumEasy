@@ -1,0 +1,5 @@
+package com.SeleniumEasy.ExtentReport.Listener;
+
+public class ExtentReportListener {
+
+}

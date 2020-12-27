@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [GatewayWebAppTestAutomationSuite]">
+  <listeners>
+    <listener class-name="com.Gateway.extentReport.Listener.GatewayExtentReportListener"/>
+  </listeners>
+  <test parallel="none" name="GatewayWebbApp(failed)">
+    <classes>
+      <class name="com.GatewayWebAppTestCases.PortalPgTestCases">
+        <methods>
+          <include name="TearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.GatewayWebAppTestCases.PortalPgTestCases -->
+      <class name="com.GatewayWebAppTestCases.LoginPgTestCases">
+        <methods>
+          <include name="setup"/>
+          <include name="TearDown"/>
+          <include name="CloseButtonValidationTest"/>
+        </methods>
+      </class> <!-- com.GatewayWebAppTestCases.LoginPgTestCases -->
+    </classes>
+  </test> <!-- GatewayWebbApp(failed) -->
+</suite> <!-- Failed suite [GatewayWebAppTestAutomationSuite] -->

@@ -1,0 +1,5 @@
+package com.SeleniumEasy.Util;
+
+public class SeleniumEasyWebEventListener {
+
+}

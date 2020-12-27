@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SeleniumEasyTestAutomationSuite" >
+	
+  <test name="SeleniumEasy TestCases" preserve-order="false">
+  <classes> 
+    <class name="com.SeleniumEasy.Test.SeleniumEasyHomePgTestCases"> 
+   <!--    <methods>
+        <include name="HomePgTest" />
+      </methods> -->
+    </class> 
+     
+     </classes>
+</test>
+</suite>

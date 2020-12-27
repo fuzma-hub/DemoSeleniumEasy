@@ -1,0 +1,55 @@
+package com.SeleniumEasy.Test;
+
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import com.SeleniumEasy.ActionsValidations.HomePgActionsValidations;
+import com.SeleniumEasy.ActionsValidations.InputFormPgActionsValidations;
+
+public class SeleniumEasyHomePgTestCases extends HomePgActionsValidations{
+	
+	HomePgActionsValidations HmePgActnsVal;
+	InputFormPgActionsValidations InptFrmPgActnsVal;
+	
+	public SeleniumEasyHomePgTestCases()
+	{
+		super();
+	}
+	
+	@BeforeMethod
+	public void Setup()
+	{
+		Initialize();
+		HmePgActnsVal= new HomePgActionsValidations();
+		InptFrmPgActnsVal = new InputFormPgActionsValidations();
+	}
+	
+	@Test(priority=1)
+	public void DemoHomeTest()
+	{
+		HmePgActnsVal.DemoHomeClick();
+	}
+	
+	@DataProvider
+	public void getTestData(String SheetName)
+	{
+	
+	}
+	
+	@Test(priority=2)
+	public void SimpleForm()
+	{
+		 InptFrmPgActnsVal.SimpleFormEntry("Hello",5,6);
+	}
+	
+	
+	@AfterTest
+	public void TearDown()
+	{
+		System.out.println("I am in tear down");
+		driver.quit();
+	}
+
+}

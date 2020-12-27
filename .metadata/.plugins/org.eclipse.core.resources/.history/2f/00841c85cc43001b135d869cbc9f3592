@@ -1,0 +1,21 @@
+package com.SeleniumEasy.PagesObjectRepository;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
+
+import com.SeleniumEasy.Base.TestBase;
+
+public class SeleniumHomePgObjectRep extends TestBase {
+	
+	SeleniumHomePgObjectRep()
+	{
+		PageFactory.initElements(driver, this);
+	}
+	
+	public WebElement DemoHome()
+	{
+    WebElement DemoHme = driver.findElement(By.xpath("//a[text()='Demo Home']"));
+     return DemoHme;
+    }
+}

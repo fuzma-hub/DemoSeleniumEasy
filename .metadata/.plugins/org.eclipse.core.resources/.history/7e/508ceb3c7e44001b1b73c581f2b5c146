@@ -1,0 +1,14 @@
+package com.SeleniumEasy.PagesObjectRepository;
+
+import org.openqa.selenium.support.PageFactory;
+
+import com.SeleniumEasy.Base.TestBase;
+
+public class InputFormsPageObjectRepository extends TestBase{
+	
+	public InputFormsPageObjectRepository()
+	{
+	PageFactory.initElements(driver, this);
+
+   }
+}

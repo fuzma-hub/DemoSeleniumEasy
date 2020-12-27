@@ -1,0 +1,61 @@
+package com.SeleniumEasy.Test;
+
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import com.SeleniumEasy.ActionsValidations.HomePgActionsValidations;
+import com.SeleniumEasy.ActionsValidations.InputFormPgActionsValidations;
+import com.SeleniumEasy.Util.SeleniumEasyUtility;
+
+public class SeleniumEasyHomePgTestCases extends HomePgActionsValidations{
+	
+	HomePgActionsValidations HmePgActnsVal;
+	InputFormPgActionsValidations InptFrmPgActnsVal;
+	SeleniumEasyUtility Util;
+	
+	String sheetName = "SeleniumEasy";
+	
+	public SeleniumEasyHomePgTestCases()
+	{
+		super();
+	}
+	
+	@BeforeMethod
+	public void Setup()
+	{
+		Initialize();
+		Util = new SeleniumEasyUtility();
+		HmePgActnsVal= new HomePgActionsValidations();
+		InptFrmPgActnsVal = new InputFormPgActionsValidations();
+	}
+	
+	@Test(priority=1)
+	public void DemoHomeTest()
+	{
+		HmePgActnsVal.DemoHomeClick();
+	}
+	
+	@DataProvider
+	public Object[][] getSeleniumEasyTestData()
+	{
+		Object data[][]= Util.getTestData(sheetName);
+		return data;
+	}
+	
+	@Test(priority=2, dataProvider="getSeleniumEasyTestData")
+	public void SimpleForm(String Text, int num1,int num2)
+	{
+		 InptFrmPgActnsVal.SimpleFormEntry(Text,num1,num2);
+	}
+	
+	
+	@AfterTest
+	public void TearDown()
+	{
+		System.out.println("I am in tear down");
+		driver.quit();
+	}
+
+}

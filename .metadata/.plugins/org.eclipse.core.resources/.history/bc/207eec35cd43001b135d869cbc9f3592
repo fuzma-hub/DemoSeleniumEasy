@@ -1,0 +1,14 @@
+package com.SeleniumEasy.ActionsValidations;
+
+import com.SeleniumEasy.PagesObjectRepository.SeleniumHomePgObjectRep;
+
+
+public class HomePgActionsValidations extends SeleniumHomePgObjectRep {
+
+	
+
+	SeleniumHomePgObjectRep SelHmpPg = new SeleniumHomePgObjectRep();
+		
+	}
+
+
