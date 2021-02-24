@@ -27,7 +27,7 @@ public class GatewayBase {
 		{
 		prop = new Properties();
 		FileInputStream ip = new FileInputStream(
-		"C:\\Users\\User3\\Selenium-Aristaz\\GatewayWebApp\\GatewayWebApp\\src\\main\\java\\com\\GatewayWebApp\\Config\\configFile");
+		"C:\\My Code\\GatewayWebApp\\GatewayWebApp\\src\\main\\java\\com\\GatewayWebApp\\Config\\configFile");
 		     prop.load(ip);
 		     
 		}     catch  (FileNotFoundException e) {
@@ -43,7 +43,7 @@ public class GatewayBase {
 		String browserName = prop.getProperty("browser");
 		{
 		if(browserName.equals("chrome")) {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\User3\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\farah\\Drivers\\chromedriver.exe");
 		driver = new ChromeDriver();
 		}
 		
